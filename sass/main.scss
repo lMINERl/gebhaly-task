@@ -8,37 +8,20 @@
 @import 'base/typography';
 
 //components
-@import 'components/buttons';
-@import 'components/card';
-@import 'components/carousel';
-@import 'components/cover';
-@import 'components/dropdown';
-@import 'components/inputs';
-@import 'components/lable';
-@import 'components/link';
-@import 'components/profile';
-@import 'components/tooltip';
-@import 'components/skeleton/card';
+@import 'components/headline';
+@import 'components/header';
+@import 'components/menu';
+@import 'components/section';
+@import 'components/achievement';
 
-//layout
-@import 'layout/footer';
-@import 'layout/forms';
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/navigation';
-@import 'layout/sidebar';
-@import 'layout/table';
+
 
 //pages
-@import 'pages/contact';
 @import 'pages/home';
-@import 'pages/listingPage';
+
 
 //themes
 @import 'themes/admin';
 @import 'themes/theme';
 
 //vendors
-@import 'vendors/materialui';
-@import 'vendors/fontawesome';
-@import 'vendors/jquery-ui';

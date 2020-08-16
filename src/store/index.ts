@@ -1,12 +1,11 @@
 import { combineReducers } from 'redux';
-import BreadcrumbsReducer from './reducers/BreadcrumbsReducer';
-import { DataReducer } from './reducers/DataReducer';
-import { LoginReducer } from './reducers/login';
+import { UserReducer } from './reducers/UsersReducer';
+import { TodoReducer } from './reducers/TodoReducer';
+
 // compining reducers into 1 global state
 export const rootReducer = combineReducers({
-  data: DataReducer,
-  breadcrumbs: BreadcrumbsReducer,
-  login: LoginReducer
+  users: UserReducer,
+  todo: TodoReducer
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

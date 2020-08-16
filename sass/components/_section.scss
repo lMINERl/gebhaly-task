@@ -1,0 +1,32 @@
+.section {
+  color: white;
+  padding: 2rem;
+  &.section__main {
+    // max-height: 20rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    &__container {
+      background-color: rgb(61, 44, 44);
+    }
+  }
+  &.section__main__head {
+    width: 100%;
+  }
+  &.section__main__description {
+  }
+  &.section__main__actions {
+  }
+  &.section__secondary {
+    &__container {
+      background-color: whitesmoke;
+    }
+    &--dark {
+      background-color: rgb(138, 110, 110);
+    }
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}

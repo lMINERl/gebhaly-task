@@ -1,0 +1,22 @@
+.headline {
+  color: white;
+  &__container {
+    width: 100%;
+    background-color: lightskyblue;
+  }
+  &__contacts {
+    display: inline-flex;
+    align-items: center;
+  }
+  &__login {
+    display: inline-flex;
+    align-items: center;
+  }
+  &__item {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  & hr {
+    height: 0px;
+  }
+}

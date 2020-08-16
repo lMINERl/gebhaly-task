@@ -1,0 +1,12 @@
+.menu {
+  &.menu__button {
+    color: white;
+    background-color: transparent;
+    margin-left: 1rem;
+    border: 0px;
+    &:hover {
+      color: red;
+      background-color: transparent;
+    }
+  }
+}

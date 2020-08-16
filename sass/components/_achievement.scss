@@ -1,0 +1,41 @@
+.achievement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.achievement__container {
+    border: 5px solid lightskyblue;
+    box-shadow: 0px 0px 5px 5px lightskyblue;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    & > img {
+      width: 80%;
+    }
+  }
+  &__description {
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 7rem;
+    text-align: left;
+  }
+  &.achievement__overlay {
+    border: 1px solid lightskyblue;
+    background: transparent;
+    margin: 8px 8px;
+    &.overlay1 {
+      box-shadow: 0px 0px 2px 2px lightskyblue;
+      border-radius: 50%;
+      width: 6rem;
+      height: 6rem;
+    }
+    &.overlay2 {
+      box-shadow: 0px 0px 1px 1px lightskyblue;
+      border-radius: 50%;
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Headline from './headline';
+import Header from './header';
 
-storiesOf('Headline', module)
+storiesOf('Header', module)
   .addDecorator((story) => (
     <div
       key={Date.now()}
@@ -11,8 +11,4 @@ storiesOf('Headline', module)
       {story()}
     </div>
   ))
-  .add('Headline', () => (
-    <Headline
-      content={{ telephoneNumber: '1234-5678-9101', email: 'me@example.com' }}
-    />
-  ));
+  .add('Header', () => <Header />);
