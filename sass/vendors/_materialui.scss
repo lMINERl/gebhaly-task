@@ -1,0 +1,11 @@
+input {
+  &.MuiOutlinedInput-input {
+    padding: 0.5rem;
+  }
+}
+
+span {
+  &.MuiSkeleton-root {
+    // width: 100%;
+  }
+}
